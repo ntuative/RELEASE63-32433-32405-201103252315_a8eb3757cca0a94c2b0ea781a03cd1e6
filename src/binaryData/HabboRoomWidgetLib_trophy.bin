@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="trophy_general" width="288" height="148" version="0.1" uid="1CC4F465-8C37-C290-0F55-E6E8DEF42CE4">
+  <window>
+    <container x="7" y="2" width="288" height="148" params="33025" style="0" name="trophy_container" caption="trophy_container" treshold="0">
+      <children>
+        <bitmap x="0" y="0" width="288" height="149" params="16" style="0" name="trophy_bg" caption="trophy_bg"/>
+        <text x="24" y="26" width="220" height="94" params="16" style="0" name="greeting" caption="greeting">
+          <variables>
+            <var key="antialias_type" value="advanced" type="String"/>
+            <var key="font_face" value="Ubuntu" type="String"/>
+            <var key="font_size" value="12" type="uint"/>
+            <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+            <var key="word_wrap" value="true" type="Boolean"/>
+          </variables>
+        </text>
+        <text x="24" y="119" width="83" height="25" params="16" style="0" name="date" caption="da.te.">
+          <variables>
+            <var key="antialias_type" value="advanced" type="String"/>
+            <var key="font_face" value="Ubuntu" type="String"/>
+            <var key="font_size" value="12" type="uint"/>
+            <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+            <var key="word_wrap" value="true" type="Boolean"/>
+            <var key="bold" value="true" type="Boolean"/>
+          </variables>
+        </text>
+        <text x="192" y="118" width="74" height="17" params="262160" style="0" name="name" caption="kateislonger">
+          <variables>
+            <var key="antialias_type" value="advanced" type="String"/>
+            <var key="auto_size" value="right" type="String"/>
+            <var key="font_face" value="Ubuntu" type="String"/>
+            <var key="font_size" value="12" type="uint"/>
+            <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+            <var key="bold" value="true" type="Boolean"/>
+          </variables>
+        </text>
+        <region x="272" y="4" width="18" height="20" params="17" style="0" name="close" caption="close" treshold="0"/>
+        <text x="119" y="3" width="44" height="17" params="786432" style="1" name="%2524%257Bwidget.furni.trophy.title%257D" caption="%24%7Bwidget.furni.trophy.title%7D" color="0x00">
+          <variables>
+            <var key="antialias_type" value="advanced" type="String"/>
+            <var key="auto_size" value="center" type="String"/>
+            <var key="font_face" value="Ubuntu" type="String"/>
+            <var key="font_size" value="12" type="uint"/>
+            <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+            <var key="bold" value="true" type="Boolean"/>
+          </variables>
+        </text>
+      </children>
+    </container>
+  </window>
+</layout>
